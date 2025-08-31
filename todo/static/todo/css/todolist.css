@@ -1,0 +1,176 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: hsl(352, 100%, 20%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+h1{
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    background-color: chartreuse;
+    padding: 10px;
+    border-end-end-radius: 5px;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 10;
+}
+
+
+.list {
+    background-color: lab(92.71% -4.16 43.33);
+    width: 500px;
+    height: 500px;
+    padding: 30px 25px;
+    border-color: rgb(237, 255, 187);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+
+
+.box .head {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(3, 3, 13);
+    font-size: xx-large;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form .input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+   
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+form .input:focus {
+    border-color: #f2fff2;
+}
+.input{
+    background-color: rgb(255, 193, 186);
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+form .button {
+    background: #1e011a;
+    color: white;
+    font-size:la ;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+
+
+
+.toda {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    align-items: center;
+    background: #00363b;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.toda h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: lab(100% 0.01 -0.01);
+    margin-right: 10px;
+}
+
+.toda p {
+    margin: 0;
+    color: #fff3f3;
+    flex: 1;
+}
+
+/* Icons on right side */
+.toda .icons {
+    display: flex;
+    gap: 10px;
+}
+
+.toda .icons i {
+    color: hwb(0 100% 0%);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.toda .icons i:hover {
+    color: #0dff15;
+}
+
+
+.box>i {
+    align-self: flex-end;
+    font-size: 1.5rem;
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.box>i:hover {
+    color: #000000;
+}
+
+
+@media (max-width: 500px) {
+    .list {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .box .head {
+        font-size: 1rem;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+}

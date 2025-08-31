@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'todo/css/index.css' %}">
+</head>
+<body>
+    <div class="signup-login">
+        <div class="signup-box">
+            <form method="post">
+                {% csrf_token %}
+                <div class="heading">
+                    <h1>SignUp</h1>
+                </div>
+                <div class="line"></div>
+                <div class="field">
+                    <b>Username</b>
+                    <input type="text" required class="inp" placeholder="Enter your Username" name="fnm">
+                </div>
+                <div class="field">
+                    <b>Email</b>
+                    <input type="email" required class="inp" placeholder="Your Email" name="email" >
+                </div>
+                <div class="field">
+                    <b>Password</b>
+                    <input type="password" required class="inp" placeholder="Enter your Password" name="pwd">
+                </div>
+                <div class="field">
+                    <input type="submit" class="submit-button" value="Signup">
+                </div>
+            </form>
+
+            <!-- Error message -->
+            {% if error %}
+            <p style="color:rgb(157, 2, 2); font-weight:bold; text-align: center;">{{ error }}</p>
+            {% endif %}
+
+            <div class="field">
+                <b style="margin-left: 130px; color: aliceblue;">Already have an account</b>
+                <br>
+                <a class="anc" style=" color: rgb(248, 234, 234);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger;" href="/login">Login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

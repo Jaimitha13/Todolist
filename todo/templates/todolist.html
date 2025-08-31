@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="{% static 'todo/css/todolist.css' %}">
+</head>
+<body>
+    <div>
+        <h1>Hello {{user}} ! Welcome to TODOLIST </h1>
+    </div>
+    <br><br>
+    <div class="list">
+       
+        <div class="box">
+            <div class="head">
+                Get Things Done Yet?
+            </div>
+            <div class="anca"><a href="{% url 'signout' %}" class="sign"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
+           
+            <form method="post">
+                {% csrf_token %}
+                <input type="text" class="input" name="title" required placeholder="Add your today's Task">
+                <input type="submit" class="button" value="Add Task">
+            </form>
+
+        {% for todo in res %}
+        <div class="toda">
+            <h4>{{todo.srno}}</h4>
+            <p>{{todo.title}}</p>
+            <div class="icons">
+                <a href="/edit/{{todo.srno}}"><i class="fa-solid fa-pen-to-square"></i></a>
+                <a href="/delete/{{todo.srno}}"><i class="fa-solid fa-delete-left"></i></a>
+            </div>
+        </div>
+        {% endfor %}
+
+        </div>
+    </div>
+</body>
+</html>
