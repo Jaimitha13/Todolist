@@ -16,6 +16,7 @@ daphne==4.2.1
 Django==5.2.3
 django-registration==5.2.1
 Flask==3.1.0
+gunicorn
 hyperlink==21.0.0
 idna==3.10
 incremental==24.7.2
