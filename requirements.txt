@@ -16,7 +16,6 @@ daphne==4.2.1
 Django==5.2.3
 django-registration==5.2.1
 Flask==3.1.0
-gunicorn
 hyperlink==21.0.0
 idna==3.10
 incremental==24.7.2
@@ -44,3 +43,4 @@ typing_extensions==4.14.1
 tzdata==2025.2
 Werkzeug==3.1.3
 zope.interface==7.2
+gunicorn==20.1.0
