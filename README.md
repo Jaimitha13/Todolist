@@ -64,7 +64,8 @@ This project demonstrates key web development concepts such as **user authentica
 ![Screenshot](https://raw.githubusercontent.com/Jaimitha13/Todolist/e6644f8808e7a1112b11fe69cb65cc83338524bb/Screenshot%202025-09-02%20224759.png)
 
 **Login:**
-![Screenshot](https://raw.githubusercontent.com/Jaimitha13/Todolist/e6644f8808e7a1112b11fe69cb65cc83338524bb/Screenshot%202025-09-02%20224759.png)
+![Screenshot](https://raw.githubusercontent.com/Jaimitha13/Todolist/a8c9471961897833f0b1daf74a9beada423e3dbe/Screenshot%202025-09-02%20225022.png)
+
 
 
 
