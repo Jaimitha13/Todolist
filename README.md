@@ -50,11 +50,12 @@ This project demonstrates key web development concepts such as **user authentica
 ![Screenshot](https://raw.githubusercontent.com/Jaimitha13/Todolist/22d43fc762e9ef996bbc81693e40489b04586359/Screenshot%202025-09-02%20224047.png)
 
 
-**Todolist Added task:**  
+**Already Added taskk:**  
 ![Screenshot](https://raw.githubusercontent.com/Jaimitha13/Todolist/ed1201f219927cb68044cf5d84c878e272de22ca/Screenshot%202025-09-02%20224225.png)
 
 
-**Edit Task:**  
-![Edit Task](images/edit-task.png)
+**New added task:**  
+![Screenshot](https://raw.githubusercontent.com/Jaimitha13/Todolist/2ca68263eab485d4c21a9ef7556ec33f4a410a9f/Screenshot%202025-09-02%20224425.png)
+
 
 ---
