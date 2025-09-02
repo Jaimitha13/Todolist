@@ -46,10 +46,11 @@ This project demonstrates key web development concepts such as **user authentica
 
 ## 🖼️ Screenshots
 
-**Dashboard:**  
-![Dashboard](images/dashboard.png)
+**Signup:**  
+![Screenshot](https://raw.githubusercontent.com/Jaimitha13/Todolist/22d43fc762e9ef996bbc81693e40489b04586359/Screenshot%202025-09-02%20224047.png)
 
-**Add Task:**  
+
+**Login:**  
 ![Add Task](images/add-task.png)
 
 **Edit Task:**  
